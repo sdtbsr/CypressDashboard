@@ -11,6 +11,7 @@ describe('Tesla web page testing', () => {
     it('ModelS page Testing', () => {
         onModelSPage.urlVerification()
         onModelSPage.privacyPage_Verification()
+        onModelSPage.modelScomparePage()
 
     })
 })
