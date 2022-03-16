@@ -1,6 +1,6 @@
 {
   "defaultCommandTimeout": 6000,
-  "pageLoadTimeout": 6000,
+  "pageLoadTimeout": 10000,
   "viewportHeight": 1028,
   "viewportWidth": 1920,
   "chromeWebSecurity": false,
@@ -9,5 +9,5 @@
     "username": "",
     "password": ""
   },
-  "projectId": "jb4b86"
+  "projectId": "ra1io2"
 }

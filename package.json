@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "teslaModelS": "npx cypress run --record --key 7ff3a555-c971-4821-b7b3-42a3c852c047 --spec 'cypress/integration/Day3/tesla.spec.js' ",
+    "teslaModelS": "npx cypress run --record --key e8a3a61d-67f9-4a89-bd2b-b7b575f04e6c --spec 'cypress/integration/Day3/tesla.spec.js' ",
     "practiceAlert": "npx cypress run --record --key 79745d98-520c-475d-afa3-7023d2ec7a3c --spec 'cypress/integration/Day3/Alerts.spec.js' "
   },
   "author": "Altay",
