@@ -13,7 +13,7 @@ export class modelS {
 
     privacyPage_Verification() {
         cy.scrollTo('bottomLeft')
-        cy.get('[class="tds-link tcl-link"]').each(($el, index) => {
+        cy.get('[class="tds-link tcl-link"]').each(($el, index) => { /* get the elements store it inside $el with 'index' number */
 
             const text = $el.text()
             expect(text).to.contain(data.ModelS[index])
@@ -28,7 +28,7 @@ export class modelS {
         cy.scrollTo('bottomLeft')
 
         cy.get('[class="tds-text--caption tcl-compare-models__item-title"]').each(($el, index) => {
-            const text = $el.text()
+            const text = $el.text() /* get text of each element and assign to a variable */
             expect(text).to.contain(comparePage.comparePageText[index])
         })
 

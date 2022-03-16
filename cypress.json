@@ -1,7 +1,6 @@
 {
-  "baseUrl": "https://wikipedia.org",
   "defaultCommandTimeout": 6000,
-  "pageLoadTimeout": 4000,
+  "pageLoadTimeout": 6000,
   "viewportHeight": 1028,
   "viewportWidth": 1920,
   "chromeWebSecurity": false,
@@ -10,5 +9,5 @@
     "username": "",
     "password": ""
   },
-  "projectId": "mqpxwt"
+  "projectId": "jb4b86"
 }
